@@ -1,0 +1,8 @@
+../Src/main.c:63:6:delay_us	16	static
+../Src/main.c:68:6:delay_ms	16	static
+../Src/main.c:74:6:gpio_init	16	static
+../Src/main.c:97:6:tim2_init	4	static
+../Src/main.c:105:10:hcsr04_read	32	static
+../Src/main.c:129:6:set_light	24	static
+../Src/main.c:151:6:run_traffic_cycle	32	static
+../Src/main.c:199:5:main	16	static

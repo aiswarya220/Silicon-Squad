@@ -1,0 +1,97 @@
+//Smart Traffic Light Control System : Version - 1a 11/08/25
+//Ultrasonic sensor 
+
+#include <stdint.h>
+
+#define RCC_BASE        0x40023800
+#define GPIOA_BASE      0x40020000
+#define TIM2_BASE       0x40000000
+
+#define RCC_AHB1ENR     (*(volatile uint32_t *)(RCC_BASE + 0x30))
+#define RCC_APB1ENR     (*(volatile uint32_t *)(RCC_BASE + 0x40))
+
+#define GPIOA_MODER     (*(volatile uint32_t *)(GPIOA_BASE + 0x00))
+#define GPIOA_IDR       (*(volatile uint32_t *)(GPIOA_BASE + 0x10))
+#define GPIOA_ODR       (*(volatile uint32_t *)(GPIOA_BASE + 0x14))
+#define GPIOA_AFRL      (*(volatile uint32_t *)(GPIOA_BASE + 0x20))
+
+#define TIM2_CR1        (*(volatile uint32_t *)(TIM2_BASE + 0x00))
+#define TIM2_DIER       (*(volatile uint32_t *)(TIM2_BASE + 0x0C))
+#define TIM2_SR         (*(volatile uint32_t *)(TIM2_BASE + 0x10))
+#define TIM2_CNT        (*(volatile uint32_t *)(TIM2_BASE + 0x24))
+#define TIM2_PSC        (*(volatile uint32_t *)(TIM2_BASE + 0x28))
+#define TIM2_ARR        (*(volatile uint32_t *)(TIM2_BASE + 0x2C))
+
+// Pin definitions
+#define TRIG_PIN   5   // PA5 -21
+#define ECHO_PIN   6   // PA6 -22
+
+uint32_t distance =0;
+void delay_us(uint32_t us) {
+    TIM2_CNT = 0;
+    while (TIM2_CNT < us);
+}
+
+void gpio_init(void) {
+    // Enable GPIOA clock
+    RCC_AHB1ENR |= (1 << 0);
+
+    // TRIG as output (PA5)
+    GPIOA_MODER &= ~(3 << (TRIG_PIN * 2));
+    GPIOA_MODER |=  (1 << (TRIG_PIN * 2));
+
+    // ECHO as input (PA6)
+    GPIOA_MODER &= ~(3 << (ECHO_PIN * 2));
+}
+
+void tim2_init(void) {
+    // Enable TIM2 clock
+    RCC_APB1ENR |= (1 << 0);
+
+    // Prescaler for 1 MHz (assuming 16 MHz default HSI clock)
+    TIM2_PSC = 16 - 1;
+    TIM2_ARR = 0xFFFF;
+    TIM2_CR1 |= 1; // Enable counter
+}
+
+uint32_t hcsr04_read(void) {
+    uint32_t start_time, end_time;
+
+    // Send 10us pulse on TRIG
+    GPIOA_ODR &= ~(1 << TRIG_PIN);
+    delay_us(2);
+    GPIOA_ODR |= (1 << TRIG_PIN);
+    delay_us(10);
+    GPIOA_ODR &= ~(1 << TRIG_PIN);
+
+    // Wait for ECHO to go high
+    while (!(GPIOA_IDR & (1 << ECHO_PIN)));
+
+    // Record start time
+    start_time = TIM2_CNT;
+
+    // Wait for ECHO to go low
+    while (GPIOA_IDR & (1 << ECHO_PIN));
+
+    // Record end time
+    end_time = TIM2_CNT;
+
+    // Calculate pulse duration (handle counter overflow)
+    uint32_t pulse_width = (end_time >= start_time) ?
+                           (end_time - start_time) :
+                           ((0xFFFF - start_time) + end_time);
+
+    // Convert to cm (speed of sound ~343 m/s, 29.1 us per cm for round trip)
+    return pulse_width / 58;
+}
+
+int main(void) {
+    gpio_init();
+    tim2_init();
+
+    while (1) {
+        distance = hcsr04_read();
+        // Here, you can output distance to UART, LCD, etc.
+        for (volatile uint32_t i = 0; i < 100000; i++); // crude delay
+    }
+}
