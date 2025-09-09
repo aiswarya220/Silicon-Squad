@@ -1,0 +1,9 @@
+../Src/cmn.c:16:6:delayms	24	static
+../Src/cmn.c:29:6:SetOutput	16	static
+../Src/cmn.c:39:6:SetInput	16	static
+../Src/cmn.c:49:6:SetBit	16	static
+../Src/cmn.c:57:6:ClrBit	16	static
+../Src/cmn.c:65:6:CplBit	16	static
+../Src/cmn.c:73:6:SetPullup	16	static
+../Src/cmn.c:83:9:GetStatus	16	static
+../Src/cmn.c:91:6:SetAltFunc	24	static
