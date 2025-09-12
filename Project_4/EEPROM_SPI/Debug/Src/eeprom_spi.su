@@ -1,0 +1,5 @@
+../Src/eeprom_spi.c:11:6:SPI1_Init	4	static
+../Src/eeprom_spi.c:35:9:SPI1_Transmit	16	static
+../Src/eeprom_spi.c:43:6:EEPROM_WriteEnable	8	static
+../Src/eeprom_spi.c:50:6:EEPROM_WriteByte	16	static
+../Src/eeprom_spi.c:68:9:EEPROM_ReadByte	24	static
