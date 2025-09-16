@@ -1,8 +1,0 @@
-../Core/Src/dht11.c:5:6:DWT_Init	4	static
-../Core/Src/dht11.c:10:6:delay_us	24	static
-../Core/Src/dht11.c:16:13:DHT11_Set_Pin_Output	16	static
-../Core/Src/dht11.c:24:13:DHT11_Set_Pin_Input	16	static
-../Core/Src/dht11.c:31:13:DHT11_Start	16	static
-../Core/Src/dht11.c:40:16:DHT11_Check_Response	24	static
-../Core/Src/dht11.c:51:16:DHT11_Read	24	static
-../Core/Src/dht11.c:63:9:DHT11_GetData	32	static
