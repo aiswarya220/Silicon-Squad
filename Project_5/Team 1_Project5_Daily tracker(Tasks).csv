@@ -1,0 +1,79 @@
+Task No,Description,Task Assigned to,Status,Start Date,End Date,Estimate Effort Required,Actual Effort
+1,Requirement Analysis(Input and Output Devices),"Kamesh ,Rahul",Completed,18/09/2025,18/09/2025,7Hrs,7Hrs
+2,Requirement Analysis(Input and Output Devices),"Kamesh ,Rahul",Completed,18/09/2025,18/09/2025,7 Hrs,7Hrs
+3,Requirement Analysis(Software) ,Jayanth,Completed,18/09/2025,18/09/2025,7 Hrs,7Hrs
+4,Requirement Analysis(Software),"Aishwarya ,Karishma",Completed,18/09/2025,18/09/2025,7 Hrs,7Hrs
+5,Task creation - Github,"Aishwarya ,Karishma",Completed,18/09/2025,18/09/2025,7 Hrs,7Hrs
+6,Hardware Architecture - I (Water level Sensor),"Kamesh ,Rahul",Completed,18/09/2025,18/09/2025,7Hrs,7Hrs
+7,Hardware Architecture - I (Water level Sensor ),Jayanth,Completed,18/09/2025,18/09/2025,7Hrs,7Hrs
+8,Software Architecture-I(Water level Sensor),"Aishwarya ,Karishma",Completed,18/09/2025,18/09/2025,7Hrs,7Hrs
+9,Software Architecture-I(Water level Sensor),"Aishwarya ,Karishma",Completed,18/09/2025,18/09/2025,7Hrs,7Hrs
+10,Circuit Design-I(Water level Sensor),"Kamesh ,Rahul",Completed,18/09/2025,18/09/2025,7Hrs,7Hrs
+11,Hardware Architecture-DHT11Sensor and Vibration sensor,Jayanth,Completed,19/09/2025,19/09/2025,7Hrs,7Hrs
+12,Hardware Architecture-I(DHT11Sensor and Vibration sensor ),"Aishwarya ,Karishma",Completed,19/09/2025,19/09/2025,7Hrs,7Hrs
+13,Software Architecture-I(DHT11Sensor and Vibration sensor),"Aishwarya ,Karishma",Completed,19/09/2025,19/09/2025,7Hrs,7Hrs
+14,Software Architecture-I(DHT11Sensor and Vibration sensor),"Aishwarya ,Karishma",Completed,19/09/2025,19/09/2025,7Hrs,7Hrs
+15,Circuit Design-I(DHT11Sensor and Vibration sensor),"Kamesh ,Rahul",Completed,19/09/2025,19/09/2025,7Hrs,7Hrs
+16,Hardware Architecture-II(IR sensor),"Kamesh ,Rahul",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+17,Hardware Architecture-II(IR sensor),"Kamesh ,Rahul",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+18,Software Architecture-II(IR sensor),"Aishwarya ,Karishma",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+19,Software Architecture-II(IR sensor),"Aishwarya ,Karishma",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+20,Circuit Design-II(IR sensor),"Kamesh ,Rahul",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+21,Hardware Architecture-III,"Kamesh ,Rahul",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+22,Hardware Architecture-III,Jayanth,Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+23,Software Architecture-III,"Aishwarya ,Karishma",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+24,Software Architecture-III,"Aishwarya ,Karishma",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+25,Circuit Design-III,"Kamesh ,Rahul",Completed,22/09/2025,22/09/2025,7Hrs,7Hrs
+26,Hardware Setup (FlowChart),"Kamesh ,Rahul",Completed,23/09/2025,23/09/2025,7Hrs,7Hrs
+27,Hardware Setup (FlowChart),"Kamesh ,Rahul",Completed,23/09/2025,23/09/2025,7Hrs,7Hrs
+28,Hardware Setup (Code),"Aishwarya ,Karishma",Completed,23/09/2025,23/09/2025,7Hrs,7Hrs
+29,Hardware Setup (Code),"Aishwarya ,Karishma",Completed,23/09/2025,23/09/2025,7Hrs,7Hrs
+30,Hardware Setup (State Machine Diagram),"Kamesh ,Rahul",Completed,23/09/2025,23/09/2025,7Hrs,7Hrs
+31,Development & Integration(Coding),"Aishwarya ,Karishma",In Progress,24/09/2025,24/09/2025,7Hrs,7Hrs
+32,Development & Integration(Integration),Jayanth,In Progress,24/09/2025,24/09/2025,7Hrs,7Hrs
+33,Development & Integration(Unit Testing),Jayanth,In Progress,24/09/2025,24/09/2025,7Hrs,7Hrs
+34,Development & Integration(coding),"Kamesh ,Rahul",In Progress,24/09/2025,24/09/2025,7Hrs,7Hrs
+35,Development & Integration(Integration),"Aishwarya ,Karishma",In Progress,24/09/2025,24/09/2025,7Hrs,7Hrs
+36,Development & Integration(Integration),Jayanth,In Progress,25/09/2025,25/09/2025,7Hrs,7Hrs
+37,Development & Integration(Coding),"Aishwarya ,Karishma",In Progress,25/09/2025,25/09/2025,7Hrs,7Hrs
+38,Development & Integration(Coding),"Aishwarya ,Karishma",In Progress,25/09/2025,25/09/2025,7Hrs,7Hrs
+39,"Development & Integration(Unit Testing
+)",Jayanth,In Progress,25/09/2025,25/09/2025,7Hrs,7Hrs
+40,Development & Integration(Integration),"Aishwarya ,Karishma",In Progress,25/09/2025,25/09/2025,7Hrs,7Hrs
+41,Development & Integration(Coding),"Aishwarya ,Karishma",In Progress,26/09/2025,26/09/2025,7Hrs,7Hrs
+42,Development & Integration(Integration),Jayanth,In Progress,26/09/2025,26/09/2025,7Hrs,7Hrs
+43,Development & Integration(Integration),"Aishwarya ,Karishma",In Progress,26/09/2025,26/09/2025,7Hrs,7Hrs
+44,Development & Integration(Coding),"Aishwarya ,Karishma",In Progress,26/09/2025,26/09/2025,7Hrs,7Hrs
+45,"Development & Integration(Unit Testing
+)",Jayanth,In Progress,26/09/2025,26/09/2025,7Hrs,7Hrs
+46,Development & Integration(Coding),"Aishwarya ,Karishma",Completed,26/09/2025,26/09/2025,7Hrs,7Hrs
+47,Development & Integration(Integration),"Aishwarya ,Karishma",Completed,26/09/2025,26/09/2025,7Hrs,7Hrs
+48,Development & Integration(Integration),Jayanth,Completed,26/09/2025,26/09/2025,7Hrs,7Hrs
+49,Development & Integration(Coding),"Aishwarya ,Karishma",Completed,26/09/2025,26/09/2025,7Hrs,7Hrs
+50,"Development & Integration(Unit Testing
+)",Jayanth,Completed,26/09/2025,26/09/2025,7Hrs,7Hrs
+51,Functional Testing,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+52,Functional Testing,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+53, Debugging,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+54, Debugging,"Aishwarya ,Karishma",In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+55,BugFixing,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+56,Functional Testing,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+57,Functional Testing,"Kamesh ,Rahul",In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+58, Debugging,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+59, Debugging,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+60,BugFixing,"Aishwarya ,Karishma",In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+61,Functional Testing,"Kamesh ,Rahul",In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+62,Functional Testing,"Kamesh ,Rahul",In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+63, Debugging,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+64, Debugging,"Aishwarya ,Karishma",In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+65,BugFixing,Jayanth,In Progress,29/09/2025,29/09/2025,7Hrs,7Hrs
+66,Functional Testing,"Kamesh ,Rahul",In Progress,30/09/2025,30/09/2025,7Hrs,7Hrs
+67, Debugging,Jayanth,In Progress,30/09/2025,30/09/2025,7Hrs,7Hrs
+68,BugFixing,"Kamesh ,Rahul",In Progress,30/09/2025,30/09/2025,7Hrs,7Hrs
+69,Documentation(Project Report),Sreenivas,In Progress,30/09/2025,30/09/2025,7Hrs,7Hrs
+70,Documentation(Presentation),Sreenivas,In Progress,30/09/2025,30/09/2025,7Hrs,7Hrs
+71,Functional Testing,Jayanth,Completed,30/09/2025,30/09/2025,7Hrs,7Hrs
+72, Debugging,"Aishwarya ,Karishma",Completed,30/09/2025,30/09/2025,7Hrs,7Hrs
+73,BugFixing,Jayanth,Completed,30/09/2025,30/09/2025,7Hrs,7Hrs
+74,Documentation(Project Report),Sreenivas,Completed,30/09/2025,30/09/2025,7Hrs,7Hrs
+75,Documentation(Presentation),Sreenivas,Completed,30/09/2025,30/09/2025,7Hrs,7Hrs
